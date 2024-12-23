@@ -4,10 +4,15 @@
  */
 package Models;
 
+import java.util.Date;
+
 /**
  *
  * @author HP
  */
 public class Views {
+    private int userID;
+    private int novelID;
+    private Date viewDate;
     
 }

@@ -1,0 +1,64 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Dec 23, 2024, 8:29:47 PM
+    Author     : HP
+*/
+
+body {
+    overflow-x: hidden;
+}
+
+.header-container {
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    align-items: flex-end;
+}
+
+.header-title{
+    display: flex;
+    justify-content: center;
+}
+
+.header-title h3{
+    color: rgb(10, 9, 9);
+    font-style: italic;
+}
+
+.header-logo{
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.header-logo img{
+    width: 150px;
+    height: 110px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    height: 50px;
+}
+
+.menu li.active{
+    background-color: #ed8116;
+}
+.custom-navbar {
+    background-color: black; /* Màu nền đen */
+}
+
+.custom-navbar .nav > li > a {
+    color: white; /* Màu chữ trắng */
+}
+
+.custom-navbar .nav > li > a:hover {
+    color: #ddd; /* Màu chữ khi di chuột qua */
+}
