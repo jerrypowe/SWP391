@@ -15,7 +15,11 @@
     <body>
         <div>
            <jsp:include page="header.jsp" />
-             <p>This is the home page content.</p>
+           <h2>New Update</h2>
+           <div> <jsp:include page="imageBody.jsp" /></div>
+          
+           
+           
             <jsp:include page="footer.jsp" />
         </div>
         

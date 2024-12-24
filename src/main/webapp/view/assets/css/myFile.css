@@ -62,3 +62,49 @@ body {
 .custom-navbar .nav > li > a:hover {
     color: #ddd; /* Màu chữ khi di chuột qua */
 }
+.categories-container {
+    padding: 30px;
+    border: 1px solid black;
+}
+
+.category {
+    width: fit-content;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.category img {
+    border: 2px solid rgb(8, 8, 8);
+    border-radius: 0px;
+    width: 200px;
+    height: 250px;
+    margin-top: 10px;
+}
+
+.category h3 {
+    text-align: center;
+    max-width: 200px; /* Set a maximum width */
+    overflow: hidden; /* Hide overflow */
+    white-space: nowrap; /* Prevent text from wrapping */
+    text-overflow: ellipsis; 
+}
+
+.categories-line {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.category button {
+width: 100px;
+height: 100px;
+}
+.banner {
+    width: 100%;
+}
+.button img {
+    width: 100px;
+    height: 100px;
+}
+.button {
+    border: 0cap;
+}
