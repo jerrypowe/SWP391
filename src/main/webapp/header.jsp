@@ -12,7 +12,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Bootstrap -->
-    <link href="view/assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="view/assets/css/bootstrap.css" rel="stylesheet" />
 
     <!--Embed css here-->
     <link rel="stylesheet" href="view/assets/css/myFile.css">
