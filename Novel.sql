@@ -26,7 +26,16 @@ create table Users(
 	membershipType int check (membershipType IN (0, 1)), -- 0(thuong), 1(vip),
 	coin decimal(10,2),
 	pass nvarchar(50),
+	regisDate datetime,
 )
+
+create table Vips(
+    vipID int primary key identity(1,1),
+	regisDate datetime,
+	expirationDate datetime,
+	userID int foreign key references Users(userID),
+)
+
 
 create table Readings(
     userID int foreign key references Users(userID),
@@ -44,7 +53,7 @@ create table Favorites(
 create table Views(
     userID int foreign key references Users(userID),
 	novelID int foreign key references Novels(novelID),
-	viewDate date,
+	viewDate datetime,
 	primary key (userID, novelID),
 )
 
