@@ -14,10 +14,10 @@ import java.sql.SQLException;
  * @author Nguyen Thanh Trung
  */
 public class UsersDAO extends DBContext{
-    //lấy 1 account từ data bằng TK để check đăng nhập
 //    public long getIncomeByDate(String userName) {
+//        String sql="";
 //        try {
-//            PreparedStatement psmt = connection.prepareStatement(getByUserName);
+//            PreparedStatement psmt = connection.prepareStatement(sql);
 //            psmt.setString(1, userName);
 //            ResultSet rs = psmt.executeQuery();
 //            if(rs.next()){
