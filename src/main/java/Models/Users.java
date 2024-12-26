@@ -4,6 +4,8 @@
  */
 package Models;
 
+import java.util.Date;
+
 /**
  *
  * @author HP
@@ -15,17 +17,19 @@ public class Users {
     private int membershipType;
     private float coin;
     private String pass;
+    private Date regisDate;
 
     public Users() {
     }
 
-    public Users(int userID, String name, String imgURL, int membershipType, float coin, String pass) {
+    public Users(int userID, String name, String imgURL, int membershipType, float coin, String pass, Date regisDate) {
         this.userID = userID;
         this.name = name;
         this.imgURL = imgURL;
         this.membershipType = membershipType;
         this.coin = coin;
         this.pass = pass;
+        this.regisDate = regisDate;
     }
 
     public int getUserID() {
@@ -75,5 +79,15 @@ public class Users {
     public void setPass(String pass) {
         this.pass = pass;
     }
+
+    public Date getRegisDate() {
+        return regisDate;
+    }
+
+    public void setRegisDate(Date regisDate) {
+        this.regisDate = regisDate;
+    }
+
+
     
 }
