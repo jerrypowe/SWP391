@@ -1,4 +1,4 @@
-create database Novel_Application
+﻿create database Novel_Application
 use Novel_Application
 
 create table Novels (
@@ -66,3 +66,13 @@ create table Comments(
 )
 
 
+INSERT INTO Novels (title, author, genre, status, rate, imageURL, updateTime)
+VALUES (
+    N'Kì Tài Giáo Chủ',               -- Tiêu đề
+    N'Phong Thất Nguyệt',             -- Tác giả
+    N'Tiên Hiệp, Kiếm Hiệp, Huyền Huyễn, Dị Giới, Xuyên Không', -- Thể loại
+    1,                                 -- Trạng thái (1: đang cập nhật)
+    4,                                 -- Đánh giá (4 sao)
+    N'view/assets/images/KiTaGiaoChu.jfif', -- URL hình ảnh
+    GETDATE()                          -- Thời gian cập nhật (thời gian hiện tại)
+);
